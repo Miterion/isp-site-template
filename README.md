@@ -18,11 +18,11 @@ If bundler is not available for your distro install the gem tool from [here](htt
 
 After installing bundler run 
 
-`$ bundle install`
+`$ bundle install --path vendor/bundle`
 
 inside the project directory.
 
-This should download and install all necessary dependencies. You can then start the server using
+This should download and install all necessary dependencies locally into the vendor/bundle folder. You can then start the server using
 
 `$ bundle exec jekyll s`
 
