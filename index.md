@@ -5,6 +5,6 @@ title: Start
 language: {language: 'English', url: 'en'}
 ---
 
-Hallo Welt Das hier ist die Startseite. Dieser Inhalt kann mit Markdown formatiert
+Das hier ist die Startseite. Dieser Inhalt kann mit Markdown formatiert
 werden.
 Weitere Hinweise findest du in der [Jekyll Dokumentation](https://jekyllrb.com/docs/posts/).
