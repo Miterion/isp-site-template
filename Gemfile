@@ -12,7 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+#gem "minima", "~> 2.0"
 #gem "isp-theme", "~>0.9.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -22,15 +22,8 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed"
+   gem 'github-pages'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# this gem lets the server reload the page on every change, which is useful
-# while debugging/writing content. To use this start the server with
-# bundle exec jekyll s -L
-group :jekyll_plugins do
-    gem 'jekyll-livereload'
-    gem 'github-pages'
-end
