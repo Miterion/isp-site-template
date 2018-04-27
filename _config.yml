@@ -27,7 +27,6 @@ markdown: kramdown
 remote_theme: miterion/isp-theme
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 exclude:
   - Gemfile
   - Gemfile.lock
