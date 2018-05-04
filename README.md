@@ -1,6 +1,7 @@
 # ISP Template for Jekyll Theme
 
 This is a template site for using the isp jekyll theme. It provides a basic jekyll page in tu design which can be used as a starting point for bigger projects.
+You can find the theme [here](https://github.com/Miterion/isp-theme).
 
 ## Installation
 Since this is a jekyll site, it requires the same setup as jekyll.
