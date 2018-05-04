@@ -29,7 +29,7 @@ This should download and install all necessary dependencies locally into the ven
 You can now visit http://locahost:4000 to see the page in action.
 
 ## Livereload
-To make editing content more easy you can start the testserver with the `-L` option:
+To use livereload, uncomment the gem in the _config.yml, then start the server with the `-L` option:
 
 `$ bundle exec jekyll s -L`
 
