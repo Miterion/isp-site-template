@@ -27,11 +27,4 @@ This should download and install all necessary dependencies locally into the ven
 
 `$ bundle exec jekyll s`
 
-You can now visit http://locahost:4000 to see the page in action.
-
-## Livereload
-To use livereload, uncomment the gem in the _config.yml, then start the server with the `-L` option:
-
-`$ bundle exec jekyll s -L`
-
-This will run the testserver with the live reload feature. The page will now automatically update upon changes inside the project directory.  
+You can now visit http://locahost:4000 to see the page in action. Use the `--livereload` option, if you want the page to live reload on every change.
