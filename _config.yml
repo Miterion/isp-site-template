@@ -46,4 +46,4 @@ defaults:
       # the title for the left sidenav
       sidenav: {mainname: Fachbereich Informatik, mainurl: 'https://www.informatik.tu-darmstadt.de'}
       # this is the standard footer, usually the contact is a webpage
-      footer: [{name: Impressum, url: 'https://www.informatik.tu-darmstadt.de/index.php?id=1894'}, {name: Kontakt, url: "mailto:contact@informatik.tu-darmstadt.de"}]
+      footer: [{name: Impressum, url: 'https://www.informatik.tu-darmstadt.de/impressum.de.jsp'}, {name: Kontakt, url: "mailto:contact@informatik.tu-darmstadt.de"}]
